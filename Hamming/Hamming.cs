@@ -6,6 +6,7 @@ namespace Hamming
     {
         public static int Distance(string original, string current)
         {
+            //implementing Hamming Distance
             int hammingDistance = 0;
             if (original == null)
             {

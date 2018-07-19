@@ -19,7 +19,7 @@ namespace Hamming
             {
                 throw new ArgumentException("Hamming Distance can only be calculated over strings of equal length");
             }
-            for(int i=0; i<original.Length; i += 1) if (original[i] != current[i]) hammingDistance++;
+            for(int j=0; j<original.Length; j += 1) if (original[j] != current[j]) hammingDistance++;
             
             return hammingDistance;
         }
